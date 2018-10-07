@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkillActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+
+        <ToggleButton
+            android:id="@+id/beginner"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="57dp"
+            android:onClick="beginnerC"
+            android:text="Beginner"
+            android:textOff="Beginner"
+            android:textOn="Beginner"
+            android:textSize="25sp" />
+
+        <ToggleButton
+            android:id="@+id/pro"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="67dp"
+            android:onClick="proC"
+            android:text="ToggleButton"
+            android:textOff="Pro"
+            android:textOn="Pro"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="38dp"
+            android:onClick="adone"
+            android:text="Done"
+            android:textSize="40sp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
