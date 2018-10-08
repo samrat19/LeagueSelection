@@ -26,3 +26,5 @@ if we rotate our app the recent data is removed and all the variables re create 
 so the data is stored and if rotation happened the data will be parced . 
 
 The App is with basic snippets no beautifull layouts . Just for learning the Functionalities
+
+<a href="https://imgflip.com/gif/2jm84y"><img src="https://i.imgflip.com/2jm84y.gif" title="made at imgflip.com"/></a>
